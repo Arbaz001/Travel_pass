@@ -24,4 +24,26 @@
     <string name="settings">Settings</string>
     <string name="history">History</string>
     <string name="home">Home</string>
+    <string name="check">Check</string>
+    <string name="date">Date :</string>
+    <string name="to">To :</string>
+    <string name="from">From :</string>
+    <string name="check_schedule">Check Schedule</string>
+    <string name="cab">Cab</string>
+    <string name="flight">Flight</string>
+    <string name="metro">Metro</string>
+    <string name="bus">Bus</string>
+    <string name="get_your_qr">Get your QR</string>
+    <string name="buy_qr">Buy QR</string>
+    <string name="recharge_your_qr">Recharge your QR</string>
+    <string name="top_ups">Top Ups</string>
+    <string name="todo">TODO</string>
+    <string name="enter_source">Enter Source</string>
+    <string name="enter_destination">Enter Destination</string>
+    <string name="enter_journey_date">DD/MM/YYYY</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="enter_unique_qr_id_code">Enter unique QR ID code</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="proceed">Proceed</string>
+    <string name="bus_recharge">BUS RECHARGE</string>
 </resources>
