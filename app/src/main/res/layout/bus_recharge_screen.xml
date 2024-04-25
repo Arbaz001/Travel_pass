@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="187dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/bus_recharge"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="71dp"
+        android:text="@string/enter_your_details"
+        android:textAlignment="textStart"
+        android:textColor="#7A000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="126dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="@string/enter_unique_qr_id_code"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="@string/enter_amount"
+        android:inputType="number"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="266dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:hint="@string/payment_method"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="@color/indicate"
+        android:text="@string/proceed"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="381dp"
+        android:text="Don't have a QR?"
+        android:textAlignment="textStart"
+        android:textColor="@color/indicate"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="42dp"
+        android:text="Get on now!"
+        android:textAlignment="textEnd"
+        android:textColor="@color/indicate"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="159dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="425dp"
+        android:text="Other Top Ups"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/rectangle"
+        android:contentDescription="@string/metro"
+        android:src="@drawable/metro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/rectangle"
+        android:contentDescription="@string/flight"
+        android:src="@drawable/t_flight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/rectangle"
+        android:contentDescription="@string/cab"
+        android:src="@drawable/t_cab"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/more1"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/rectangle"
+        android:contentDescription="@string/cab"
+        android:src="@drawable/more"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="163dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="552dp"
+        android:text="Other Services"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/schedule"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/rectangle"
+        android:contentDescription="@string/metro"
+        android:src="@drawable/schedule"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/balance"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/rectangle"
+        android:contentDescription="@string/metro"
+        android:src="@drawable/balance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/manage"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/rectangle"
+        android:contentDescription="@string/metro"
+        android:src="@drawable/manage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/more2"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/rectangle"
+        android:contentDescription="@string/cab"
+        android:src="@drawable/more"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
